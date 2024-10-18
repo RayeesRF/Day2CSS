@@ -1,0 +1,195 @@
+/*1st Image CSS*/
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.b1 {
+  width: 600px;
+  margin: 10px auto;
+  box-sizing: border-box;
+  border: 1px solid rgb(207, 205, 205);
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  background-color: rgb(252, 253, 253);
+}
+.img1 {
+  width: 100%;
+  border-radius: 10px;
+}
+.c1 {
+  position: relative;
+}
+.m1 {
+  font-size: 13px;
+  padding: 5px;
+  background-color: antiquewhite;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.m2 {
+  font-size: 14px;
+  background-color: rgb(118, 118, 201);
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 2px;
+  position: absolute;
+  bottom: 30px;
+}
+.m3 {
+  font-size: 13px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  position: absolute;
+  bottom: 30px;
+  right: 10px;
+}
+.m2,
+.m3 {
+  display: flex;
+}
+h2 {
+  font-size: 35px;
+  font-weight: 1200;
+  padding-left: 5px;
+}
+.conp1 {
+  font-size: 25px;
+  color: rgb(77, 77, 66);
+  padding-bottom: 5px;
+  padding-left: 5px;
+  margin-top: -15px;
+}
+.conp2 {
+  font-size: 22px;
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid rgb(77, 77, 66);
+  color: rgb(77, 77, 66);
+}
+
+/*2nd Image CSS*/
+.b2 {
+  width: 600px;
+  margin: 10px auto;
+  box-sizing: border-box;
+  position: relative;
+}
+.img2 {
+  width: 100%;
+  border-radius: 20px;
+  position: relative;
+}
+h1 {
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+}
+.conp3 {
+  font-size: 15px;
+  padding: 0 30px;
+  text-align: justify;
+  color: white;
+}
+.btn1 {
+  padding: 10px 25px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 30px;
+  font-weight: 800;
+}
+.content {
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+}
+
+/*3rd Image CSS*/
+.b3 {
+  width: 700px;
+  margin: 10px auto;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 20px;
+}
+.img3 {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  position: relative;
+}
+h3 {
+  font-size: 50px;
+  margin-bottom: -10px;
+  color: orangered;
+  font-weight: bolder;
+}
+.conp4 {
+  font-size: 22px;
+  font-weight: bold;
+}
+.i1 {
+  width: 300px;
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+::placeholder {
+  color: rgb(204, 198, 198);
+  font-size: 15px;
+}
+.content2 {
+  position: absolute;
+  bottom: 20px;
+  text-align: left;
+  margin-left: 30px;
+}
+
+/*4th Image Layout*/
+.b4 {
+  width: 400px;
+  margin: 10px auto;
+  box-sizing: border-box;
+  border: 1px solid gray;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.bg {
+  position: relative;
+}
+.back {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  position: relative;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.profile {
+  width: 120px;
+  border-radius: 50%;
+  position: absolute;
+  left: 35%;
+  bottom: -50%;
+  border: 5px solid white;
+}
+.conp5 {
+  font-size: 30px;
+  margin-top: 100px;
+  text-align: center;
+}
+.conp6 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: -30px;
+  color: grey;
+}
